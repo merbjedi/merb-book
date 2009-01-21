@@ -45,7 +45,7 @@ To fail a login, or to force a login at any point in your controller code,
 simply raise an ``Unauthenticated`` exception (with an optional message)
 and the user will be presented with a login page.
 The login page is, in fact,
-the view template for ``Extensions#unauthenticated``.
+the view template for ``Exceptions#unauthenticated``.
 
 It is possible to use MerbAuth with any object as a user object,
 provided that the object does not evaluate to false
